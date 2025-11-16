@@ -1,0 +1,11 @@
+<input id="input"; onkeyup="live()">
+
+<p id="output"> </p>
+
+<script>
+    function live(){
+    var input = document.querySelector("input").value;
+    var output = document.getElementById("output");
+    output.textContent = input;
+    }
+</script>

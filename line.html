@@ -1,0 +1,31 @@
+<button onclick="add()">Add HELLO</button>
+
+<div> 
+    <h1 id="result"> </h1>
+
+</div>
+
+<script>
+    var helo = document.getElementById("result")
+    function add(){
+        helo.innerHTML += "HELLO <br>"
+    }
+</script>
+
+-----------------------------
+
+<input id="one">
+<button onclick="add1()">Add</button>
+
+<div> 
+    <h1 id="result1"> </h1>
+
+</div>
+
+<script>
+    var helo1 = document.getElementById("result1")
+    function add1(){
+        var input = document.getElementById("one").value
+        helo1.innerHTML += input + "<br>"
+    }
+</script>
