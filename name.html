@@ -1,0 +1,14 @@
+<h1 id="one"> Name </h1>
+
+
+<button id="guna"; onclick="changename(event)">GUNA</button>
+<button id="vj"; onclick="changename(event)">VIJAY</button>
+<button id="ceo"; onclick="changename(event)">CEO</button>
+
+<script>
+    function changename(event){
+        var name = document.getElementById("one")
+        name.textContent = event.target.textContent
+    }
+
+</script>
